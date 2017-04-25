@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+    <objectAnimator
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="500"
+        android:repeatCount="0"
+        android:repeatMode="reverse">
+        <propertyValuesHolder android:propertyName="scaleX" >
+            <keyframe android:fraction="0" android:value="0" />
+
+            <keyframe android:fraction="1"
+                android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                android:value="2." />
+        </propertyValuesHolder>
+        <propertyValuesHolder android:propertyName="scaleY" >
+            <keyframe android:fraction="0" android:value="0" />
+
+            <keyframe android:fraction="1"
+                android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                android:value="2." />
+        </propertyValuesHolder>
+        <propertyValuesHolder android:propertyName="rotation" >
+            <keyframe android:fraction="0" android:value="360" />
+
+            <keyframe android:fraction="1"
+                android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                android:value="0" />
+        </propertyValuesHolder>
+    </objectAnimator>
+    <objectAnimator
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="500"
+        android:repeatCount="0"
+        android:repeatMode="reverse">
+        <propertyValuesHolder android:propertyName="rotation" >
+            <keyframe android:fraction="0" android:value="0" />
+
+            <keyframe android:fraction="1"
+                android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                android:value="0" />
+        </propertyValuesHolder>
+    </objectAnimator>
+    <objectAnimator
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="500"
+        android:repeatCount="0"
+        android:repeatMode="reverse">
+        <propertyValuesHolder android:propertyName="translationY" >
+            <keyframe android:fraction="0" android:value="300" />
+
+            <keyframe android:fraction="1"
+                android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                android:value="600" />
+        </propertyValuesHolder>
+    </objectAnimator>
+</set>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/workspace"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:measureAllChildren="true"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <!--<include layout="@layout/projectiles"/>-->
+    <FrameLayout
+        android:id="@+id/fl_scene"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:background="#80000000">
+        <!--Score -->
+
+        <TextView
+            android:id="@+id/stage_hint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="10dp"
+            android:text="Stage"
+            android:textColor="@color/score"
+            android:textSize="70dp" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="score"
+            android:textColor="@color/score"
+            android:visibility="gone"
+            android:textSize="@dimen/score_size" />
+
+        <!--Scene background-->
+        <ImageView
+            android:id="@+id/scene_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+        <!--Enemy place-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/monster_field"
+            android:weightSum="3">
+            <!-- image and hp bar-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <com.skyfishjy.library.RippleBackground
+                    android:id="@+id/lock_ripple_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    app:rb_color="#66FFFFFF"
+                    app:rb_duration="4000"
+                    app:rb_radius="30dp"
+                    app:rb_rippleAmount="2"
+                    app:rb_scale="2">
+
+                    <ImageView
+                        android:id="@+id/enemy_pos_1"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:scaleType="centerCrop" />
+                </com.skyfishjy.library.RippleBackground>
+
+                <TextView
+                    android:id="@+id/lock_text_1"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:text="LOCKED"/>
+                <com.akexorcist.roundcornerprogressbar.IconRoundCornerProgressBar
+                    android:id="@+id/hp_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    app:rcIconSize="30dp"
+                    app:rcMax="10"
+                    app:rcProgress="5" />
+            </LinearLayout>
+
+
+            <!--pos 2-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/ll_pos_2"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <com.skyfishjy.library.RippleBackground
+                    android:id="@+id/lock_ripple_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    app:rb_color="#66FFFFFF"
+                    app:rb_duration="4000"
+                    app:rb_radius="30dp"
+                    app:rb_rippleAmount="2"
+                    app:rb_scale="2">
+
+                    <ImageView
+                        android:id="@+id/enemy_pos_2"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:scaleType="centerCrop" />
+                </com.skyfishjy.library.RippleBackground>
+                <TextView
+                    android:layout_marginTop="60dp"
+                    android:id="@+id/unKnownEnemy"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:text="Unknown"/>
+                <TextView
+                    android:id="@+id/lock_text_2"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:text="LOCKED"/>
+                <com.akexorcist.roundcornerprogressbar.IconRoundCornerProgressBar
+                    android:id="@+id/hp_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    app:rcIconSize="30dp"
+                    app:rcMax="10"
+                    app:rcProgress="5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <com.skyfishjy.library.RippleBackground
+                    android:id="@+id/lock_ripple_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    app:rb_color="#66FFFFFF"
+                    app:rb_duration="4000"
+                    app:rb_radius="30dp"
+                    app:rb_rippleAmount="2"
+                    app:rb_scale="2">
+
+                    <ImageView
+                        android:id="@+id/enemy_pos_3"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:scaleType="centerCrop" />
+                </com.skyfishjy.library.RippleBackground>
+
+                <TextView
+                    android:id="@+id/lock_text_3"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:text="LOCKED"/>
+                <com.akexorcist.roundcornerprogressbar.IconRoundCornerProgressBar
+                    android:id="@+id/hp_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    app:rcIconSize="30dp"
+                    app:rcMax="10"
+                    app:rcProgress="5" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/projectile_blue"
+            android:id="@+id/projectile_blue"
+            android:visibility="gone"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/projectile_green"
+            android:id="@+id/projectile_green"
+            android:visibility="gone"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/projectile_yellow"
+            android:id="@+id/projectile_yellow"
+            android:visibility="gone"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/projectile_red"
+            android:id="@+id/projectile_red"
+            android:visibility="gone"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/projectile_purple"
+            android:id="@+id/projectile_purple"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/gameboard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.45">
+
+        <ImageView
+            android:id="@+id/craftAbox"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/box" />
+
+        <ImageView
+            android:id="@+id/craftBbox"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/box" />
+
+        <ImageView
+            android:id="@+id/craftB"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="80dp"/>
+
+        <ImageView
+            android:id="@+id/craftA"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="80dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/round_remain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Remain Round: 5"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:textAllCaps="false"/>
+
+
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_item"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.15"
+        android:background="@drawable/slider" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CraftItem">
+        <attr name="craftName" format="string"/>
+        <attr name="craftTag" format="string"/>
+        <attr name="craftProperty" format="string"/>
+        <attr name="craftImageDrawable" format="reference"/>
+    </declare-styleable>
+</resources>

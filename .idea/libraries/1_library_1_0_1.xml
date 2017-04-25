@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="1_library-1.0.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/1f8be185c16d1eca5dfe698af32d1bd64aad717d/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/1f8be185c16d1eca5dfe698af32d1bd64aad717d/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.skyfishjy.ripplebackground/library/1.0.1/5dcc73905021c28c8bdf030c243f5d5543988e0e/library-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

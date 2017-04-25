@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_background"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal"
+        android:background="#FCB964"
+        android:id="@+id/ll_traning"
+        android:weightSum="1">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:src="@drawable/trainning_icon"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:text="Training"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="34dp"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+
+            android:src="@drawable/ic_keyboard_arrow_right_white_24dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:background="#FF7BA7"
+        android:id="@+id/ll_challenge"
+        android:weightSum="1">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:src="@drawable/game_icon"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:text="Challenge"
+            android:textStyle="bold"
+
+            android:textColor="@android:color/white"
+            android:textSize="34dp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+
+            android:layout_weight="0.1"
+            android:src="@drawable/ic_keyboard_arrow_right_white_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:background="#98B3F5"
+        android:id="@+id/ll_leave"
+        android:weightSum="1">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"/>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:src="@drawable/leave_icon" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:text="Leave"
+            android:textColor="@android:color/white"
+            android:textSize="34dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.1"
+
+            android:src="@drawable/ic_keyboard_arrow_right_white_24dp" />
+    </LinearLayout>
+
+</LinearLayout>

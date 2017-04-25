@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/9035bacd094c8f47c255413d58d64949485ae5b8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="05986b15a4754a243ade3c5d075db8a0f539b888">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_03cef1b2a19a94a55cd8e94552b3909056b27f51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/3d00551b9cd81df473d145f7ce6a71f547f49a81/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b057cf8d833ede21bbf979194eca0d38cd56a790/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/93f0bbffc898fbc72e80a61050bf1ba786db7d50/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_05dadf922d4b4127711e6c7144545ac628afd65f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/7251ab9317a0cdb5fdda2ed03d22ce42faa08fe0/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a370baea9569537ab8fa986d22d342b9f5e1d552/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/ce0884a1835d66438accc55b66e5cd609806fbcb/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ba1870871a48506c5dca3370f47c372e96161167/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/6ae7ee335ebeb27d984e02dd391392c5292d1cc6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6135046ce4c4fe0de55027292f3405008e5d11c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="edcd924f32ab8ecfa9a81cd6801cde1184d7977b">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_67296a51a6e786d2cb35bf01ebb6539b5301a21c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/3d00551b9cd81df473d145f7ce6a71f547f49a81/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_2d706e9189e96408560857785be651a858e1eee9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/6689dfc2caa0d5123767125e5bb3676ff8487141/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1a0139b928f41983550e4c6a434021c2b664ae9b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/ce0884a1835d66438accc55b66e5cd609806fbcb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1e720d4012325e8c9cf84d54aef2dd15449a9d5c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/561a25f56aa5a8ddfcfbc5b78c8455e3bea8b2e4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e976d825cd8bb822f4d969d09f6a42d686944fb0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/0d1cee6f4bd5011f075e13eaa79f37ed53bd9cc1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b3e5bd633ab072aea3d36e0ae57ec22ae23310d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/97a1582bcf05bb06e5213d3191195f359c336673/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_90fff6c6d741753b63afb422457c12aef4881dc4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8e836d52b4e7c1d6e9bf2281ff4bcbbd3e29c01c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/df844bec6958c8de068d56d8f516062f2743635d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ad03f1925e0ed1cccc998599f9449f8c1a7009f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_be439a4dc562ab78e44f42a095073d05ffa30cb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/f45ff201f5d7ee7feda4ee50e757a323fee147c5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="461cd433c2723981c7536d60acfcf3d86f3105fb">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_35c8e4f462169cdef69fde7892959d48919a34df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/0ff648817ad4f175cc93857ab2b42a8eb954639b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2b64f6a762f61a2379d6a79af03e2ee56eefe0b">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_932fbff29f681578d587b238c91cbf9fb2d7d2b0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/80a0a0f0dc3abb3ac0717f5a00230e3669b46f80/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="88c6386ad8356b89487b43bcaae4827b1abe999c">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7a44f17a68c7a86ba3fcdf2f1abe6e4f10d157b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/45fc2107610e991e922d5d2bcedb134b0ae61d65/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_cffc6af595c740778ad57a981872bcf8ba35efac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/0d1cee6f4bd5011f075e13eaa79f37ed53bd9cc1/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ef520ebac8865bcadf40a454b20806a0481e6145/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha9/constraint-layout-solver-1.0.0-alpha9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a908fd0803cc5f65b007101002aec06dc7544da">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-alpha9_2bc33b7e6a037be852a9b47e079d6d0307ac201c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/45fc2107610e991e922d5d2bcedb134b0ae61d65/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_da1d4cbceb04e128f553d239ecf4f7d1d9adb7a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theoska/.android/build-cache/7251ab9317a0cdb5fdda2ed03d22ce42faa08fe0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/theoska/Development/Android/original /Evolution/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5dde790c1d58be4a9fa066887ed2ea5004098d24/classes.dex" />
+    </item>
+
+</items>
